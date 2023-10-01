@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Sphere
+//  Spheree
 //
 //  Created by Andy Fernando Fuentes Velásquez on 30/09/23.
 //

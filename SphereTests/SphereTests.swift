@@ -1,13 +1,13 @@
 //
-//  SphereTests.swift
-//  SphereTests
+//  SphereeTests.swift
+//  SphereeTests
 //
 //  Created by Andy Fernando Fuentes Velásquez on 30/09/23.
 //
 
 import XCTest
 
-final class SphereTests: XCTestCase {
+final class SphereeTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

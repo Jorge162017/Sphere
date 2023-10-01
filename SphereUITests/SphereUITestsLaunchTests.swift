@@ -1,13 +1,13 @@
 //
-//  SphereUITestsLaunchTests.swift
-//  SphereUITests
+//  SphereeUITestsLaunchTests.swift
+//  SphereeUITests
 //
 //  Created by Andy Fernando Fuentes Velásquez on 30/09/23.
 //
 
 import XCTest
 
-final class SphereUITestsLaunchTests: XCTestCase {
+final class SphereeUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

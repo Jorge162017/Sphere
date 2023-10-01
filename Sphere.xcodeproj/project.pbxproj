@@ -7,62 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4099EAC2AC9362700000B65 /* SphereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EAB2AC9362700000B65 /* SphereApp.swift */; };
-		B4099EAE2AC9362700000B65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EAD2AC9362700000B65 /* ContentView.swift */; };
-		B4099EB02AC9362A00000B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4099EAF2AC9362A00000B65 /* Assets.xcassets */; };
-		B4099EB42AC9362A00000B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4099EB32AC9362A00000B65 /* Preview Assets.xcassets */; };
-		B4099EBE2AC9362A00000B65 /* SphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EBD2AC9362A00000B65 /* SphereTests.swift */; };
-		B4099EC82AC9362A00000B65 /* SphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EC72AC9362A00000B65 /* SphereUITests.swift */; };
-		B4099ECA2AC9362A00000B65 /* SphereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EC92AC9362A00000B65 /* SphereUITestsLaunchTests.swift */; };
+		B4099EE32AC93C9D00000B65 /* SphereeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EE22AC93C9D00000B65 /* SphereeApp.swift */; };
+		B4099EE52AC93C9D00000B65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EE42AC93C9D00000B65 /* ContentView.swift */; };
+		B4099EE72AC93C9F00000B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4099EE62AC93C9F00000B65 /* Assets.xcassets */; };
+		B4099EEB2AC93C9F00000B65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4099EEA2AC93C9F00000B65 /* Preview Assets.xcassets */; };
+		B4099EF52AC93C9F00000B65 /* SphereeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EF42AC93C9F00000B65 /* SphereeTests.swift */; };
+		B4099EFF2AC93C9F00000B65 /* SphereeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099EFE2AC93C9F00000B65 /* SphereeUITests.swift */; };
+		B4099F012AC93C9F00000B65 /* SphereeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099F002AC93C9F00000B65 /* SphereeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B4099EBA2AC9362A00000B65 /* PBXContainerItemProxy */ = {
+		B4099EF12AC93C9F00000B65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B4099EA02AC9362700000B65 /* Project object */;
+			containerPortal = B4099ED72AC93C9D00000B65 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4099EA72AC9362700000B65;
-			remoteInfo = Sphere;
+			remoteGlobalIDString = B4099EDE2AC93C9D00000B65;
+			remoteInfo = Spheree;
 		};
-		B4099EC42AC9362A00000B65 /* PBXContainerItemProxy */ = {
+		B4099EFB2AC93C9F00000B65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B4099EA02AC9362700000B65 /* Project object */;
+			containerPortal = B4099ED72AC93C9D00000B65 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4099EA72AC9362700000B65;
-			remoteInfo = Sphere;
+			remoteGlobalIDString = B4099EDE2AC93C9D00000B65;
+			remoteInfo = Spheree;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B4099EA82AC9362700000B65 /* Sphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4099EAB2AC9362700000B65 /* SphereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereApp.swift; sourceTree = "<group>"; };
-		B4099EAD2AC9362700000B65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B4099EAF2AC9362A00000B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4099EB12AC9362A00000B65 /* Sphere.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sphere.entitlements; sourceTree = "<group>"; };
-		B4099EB32AC9362A00000B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B4099EB92AC9362A00000B65 /* SphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4099EBD2AC9362A00000B65 /* SphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereTests.swift; sourceTree = "<group>"; };
-		B4099EC32AC9362A00000B65 /* SphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4099EC72AC9362A00000B65 /* SphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereUITests.swift; sourceTree = "<group>"; };
-		B4099EC92AC9362A00000B65 /* SphereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4099EDF2AC93C9D00000B65 /* Spheree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spheree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4099EE22AC93C9D00000B65 /* SphereeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereeApp.swift; sourceTree = "<group>"; };
+		B4099EE42AC93C9D00000B65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B4099EE62AC93C9F00000B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4099EE82AC93C9F00000B65 /* Spheree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spheree.entitlements; sourceTree = "<group>"; };
+		B4099EEA2AC93C9F00000B65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4099EF02AC93C9F00000B65 /* SphereeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4099EF42AC93C9F00000B65 /* SphereeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereeTests.swift; sourceTree = "<group>"; };
+		B4099EFA2AC93C9F00000B65 /* SphereeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4099EFE2AC93C9F00000B65 /* SphereeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereeUITests.swift; sourceTree = "<group>"; };
+		B4099F002AC93C9F00000B65 /* SphereeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4099EA52AC9362700000B65 /* Frameworks */ = {
+		B4099EDC2AC93C9D00000B65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EB62AC9362A00000B65 /* Frameworks */ = {
+		B4099EED2AC93C9F00000B65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EC02AC9362A00000B65 /* Frameworks */ = {
+		B4099EF72AC93C9F00000B65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,143 +72,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B4099E9F2AC9362700000B65 = {
+		B4099ED62AC93C9D00000B65 = {
 			isa = PBXGroup;
 			children = (
-				B4099EAA2AC9362700000B65 /* Sphere */,
-				B4099EBC2AC9362A00000B65 /* SphereTests */,
-				B4099EC62AC9362A00000B65 /* SphereUITests */,
-				B4099EA92AC9362700000B65 /* Products */,
+				B4099EE12AC93C9D00000B65 /* Spheree */,
+				B4099EF32AC93C9F00000B65 /* SphereeTests */,
+				B4099EFD2AC93C9F00000B65 /* SphereeUITests */,
+				B4099EE02AC93C9D00000B65 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B4099EA92AC9362700000B65 /* Products */ = {
+		B4099EE02AC93C9D00000B65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4099EA82AC9362700000B65 /* Sphere.app */,
-				B4099EB92AC9362A00000B65 /* SphereTests.xctest */,
-				B4099EC32AC9362A00000B65 /* SphereUITests.xctest */,
+				B4099EDF2AC93C9D00000B65 /* Spheree.app */,
+				B4099EF02AC93C9F00000B65 /* SphereeTests.xctest */,
+				B4099EFA2AC93C9F00000B65 /* SphereeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4099EAA2AC9362700000B65 /* Sphere */ = {
+		B4099EE12AC93C9D00000B65 /* Spheree */ = {
 			isa = PBXGroup;
 			children = (
-				B4099EAB2AC9362700000B65 /* SphereApp.swift */,
-				B4099EAD2AC9362700000B65 /* ContentView.swift */,
-				B4099EAF2AC9362A00000B65 /* Assets.xcassets */,
-				B4099EB12AC9362A00000B65 /* Sphere.entitlements */,
-				B4099EB22AC9362A00000B65 /* Preview Content */,
+				B4099EE22AC93C9D00000B65 /* SphereeApp.swift */,
+				B4099EE42AC93C9D00000B65 /* ContentView.swift */,
+				B4099EE62AC93C9F00000B65 /* Assets.xcassets */,
+				B4099EE82AC93C9F00000B65 /* Spheree.entitlements */,
+				B4099EE92AC93C9F00000B65 /* Preview Content */,
 			);
-			path = Sphere;
+			path = Spheree;
 			sourceTree = "<group>";
 		};
-		B4099EB22AC9362A00000B65 /* Preview Content */ = {
+		B4099EE92AC93C9F00000B65 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B4099EB32AC9362A00000B65 /* Preview Assets.xcassets */,
+				B4099EEA2AC93C9F00000B65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B4099EBC2AC9362A00000B65 /* SphereTests */ = {
+		B4099EF32AC93C9F00000B65 /* SphereeTests */ = {
 			isa = PBXGroup;
 			children = (
-				B4099EBD2AC9362A00000B65 /* SphereTests.swift */,
+				B4099EF42AC93C9F00000B65 /* SphereeTests.swift */,
 			);
-			path = SphereTests;
+			path = SphereeTests;
 			sourceTree = "<group>";
 		};
-		B4099EC62AC9362A00000B65 /* SphereUITests */ = {
+		B4099EFD2AC93C9F00000B65 /* SphereeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B4099EC72AC9362A00000B65 /* SphereUITests.swift */,
-				B4099EC92AC9362A00000B65 /* SphereUITestsLaunchTests.swift */,
+				B4099EFE2AC93C9F00000B65 /* SphereeUITests.swift */,
+				B4099F002AC93C9F00000B65 /* SphereeUITestsLaunchTests.swift */,
 			);
-			path = SphereUITests;
+			path = SphereeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B4099EA72AC9362700000B65 /* Sphere */ = {
+		B4099EDE2AC93C9D00000B65 /* Spheree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4099ECD2AC9362A00000B65 /* Build configuration list for PBXNativeTarget "Sphere" */;
+			buildConfigurationList = B4099F042AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "Spheree" */;
 			buildPhases = (
-				B4099EA42AC9362700000B65 /* Sources */,
-				B4099EA52AC9362700000B65 /* Frameworks */,
-				B4099EA62AC9362700000B65 /* Resources */,
+				B4099EDB2AC93C9D00000B65 /* Sources */,
+				B4099EDC2AC93C9D00000B65 /* Frameworks */,
+				B4099EDD2AC93C9D00000B65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Sphere;
-			productName = Sphere;
-			productReference = B4099EA82AC9362700000B65 /* Sphere.app */;
+			name = Spheree;
+			productName = Spheree;
+			productReference = B4099EDF2AC93C9D00000B65 /* Spheree.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B4099EB82AC9362A00000B65 /* SphereTests */ = {
+		B4099EEF2AC93C9F00000B65 /* SphereeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4099ED02AC9362A00000B65 /* Build configuration list for PBXNativeTarget "SphereTests" */;
+			buildConfigurationList = B4099F072AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "SphereeTests" */;
 			buildPhases = (
-				B4099EB52AC9362A00000B65 /* Sources */,
-				B4099EB62AC9362A00000B65 /* Frameworks */,
-				B4099EB72AC9362A00000B65 /* Resources */,
+				B4099EEC2AC93C9F00000B65 /* Sources */,
+				B4099EED2AC93C9F00000B65 /* Frameworks */,
+				B4099EEE2AC93C9F00000B65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B4099EBB2AC9362A00000B65 /* PBXTargetDependency */,
+				B4099EF22AC93C9F00000B65 /* PBXTargetDependency */,
 			);
-			name = SphereTests;
-			productName = SphereTests;
-			productReference = B4099EB92AC9362A00000B65 /* SphereTests.xctest */;
+			name = SphereeTests;
+			productName = SphereeTests;
+			productReference = B4099EF02AC93C9F00000B65 /* SphereeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B4099EC22AC9362A00000B65 /* SphereUITests */ = {
+		B4099EF92AC93C9F00000B65 /* SphereeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4099ED32AC9362A00000B65 /* Build configuration list for PBXNativeTarget "SphereUITests" */;
+			buildConfigurationList = B4099F0A2AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "SphereeUITests" */;
 			buildPhases = (
-				B4099EBF2AC9362A00000B65 /* Sources */,
-				B4099EC02AC9362A00000B65 /* Frameworks */,
-				B4099EC12AC9362A00000B65 /* Resources */,
+				B4099EF62AC93C9F00000B65 /* Sources */,
+				B4099EF72AC93C9F00000B65 /* Frameworks */,
+				B4099EF82AC93C9F00000B65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B4099EC52AC9362A00000B65 /* PBXTargetDependency */,
+				B4099EFC2AC93C9F00000B65 /* PBXTargetDependency */,
 			);
-			name = SphereUITests;
-			productName = SphereUITests;
-			productReference = B4099EC32AC9362A00000B65 /* SphereUITests.xctest */;
+			name = SphereeUITests;
+			productName = SphereeUITests;
+			productReference = B4099EFA2AC93C9F00000B65 /* SphereeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4099EA02AC9362700000B65 /* Project object */ = {
+		B4099ED72AC93C9D00000B65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					B4099EA72AC9362700000B65 = {
+					B4099EDE2AC93C9D00000B65 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					B4099EB82AC9362A00000B65 = {
+					B4099EEF2AC93C9F00000B65 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B4099EA72AC9362700000B65;
+						TestTargetID = B4099EDE2AC93C9D00000B65;
 					};
-					B4099EC22AC9362A00000B65 = {
+					B4099EF92AC93C9F00000B65 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = B4099EA72AC9362700000B65;
+						TestTargetID = B4099EDE2AC93C9D00000B65;
 					};
 				};
 			};
-			buildConfigurationList = B4099EA32AC9362700000B65 /* Build configuration list for PBXProject "Sphere" */;
+			buildConfigurationList = B4099EDA2AC93C9D00000B65 /* Build configuration list for PBXProject "Spheree" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = B4099E9F2AC9362700000B65;
-			productRefGroup = B4099EA92AC9362700000B65 /* Products */;
+			mainGroup = B4099ED62AC93C9D00000B65;
+			productRefGroup = B4099EE02AC93C9D00000B65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4099EA72AC9362700000B65 /* Sphere */,
-				B4099EB82AC9362A00000B65 /* SphereTests */,
-				B4099EC22AC9362A00000B65 /* SphereUITests */,
+				B4099EDE2AC93C9D00000B65 /* Spheree */,
+				B4099EEF2AC93C9F00000B65 /* SphereeTests */,
+				B4099EF92AC93C9F00000B65 /* SphereeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4099EA62AC9362700000B65 /* Resources */ = {
+		B4099EDD2AC93C9D00000B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4099EB42AC9362A00000B65 /* Preview Assets.xcassets in Resources */,
-				B4099EB02AC9362A00000B65 /* Assets.xcassets in Resources */,
+				B4099EEB2AC93C9F00000B65 /* Preview Assets.xcassets in Resources */,
+				B4099EE72AC93C9F00000B65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EB72AC9362A00000B65 /* Resources */ = {
+		B4099EEE2AC93C9F00000B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EC12AC9362A00000B65 /* Resources */ = {
+		B4099EF82AC93C9F00000B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +255,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4099EA42AC9362700000B65 /* Sources */ = {
+		B4099EDB2AC93C9D00000B65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4099EAE2AC9362700000B65 /* ContentView.swift in Sources */,
-				B4099EAC2AC9362700000B65 /* SphereApp.swift in Sources */,
+				B4099EE52AC93C9D00000B65 /* ContentView.swift in Sources */,
+				B4099EE32AC93C9D00000B65 /* SphereeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EB52AC9362A00000B65 /* Sources */ = {
+		B4099EEC2AC93C9F00000B65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4099EBE2AC9362A00000B65 /* SphereTests.swift in Sources */,
+				B4099EF52AC93C9F00000B65 /* SphereeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4099EBF2AC9362A00000B65 /* Sources */ = {
+		B4099EF62AC93C9F00000B65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4099EC82AC9362A00000B65 /* SphereUITests.swift in Sources */,
-				B4099ECA2AC9362A00000B65 /* SphereUITestsLaunchTests.swift in Sources */,
+				B4099EFF2AC93C9F00000B65 /* SphereeUITests.swift in Sources */,
+				B4099F012AC93C9F00000B65 /* SphereeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4099EBB2AC9362A00000B65 /* PBXTargetDependency */ = {
+		B4099EF22AC93C9F00000B65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4099EA72AC9362700000B65 /* Sphere */;
-			targetProxy = B4099EBA2AC9362A00000B65 /* PBXContainerItemProxy */;
+			target = B4099EDE2AC93C9D00000B65 /* Spheree */;
+			targetProxy = B4099EF12AC93C9F00000B65 /* PBXContainerItemProxy */;
 		};
-		B4099EC52AC9362A00000B65 /* PBXTargetDependency */ = {
+		B4099EFC2AC93C9F00000B65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B4099EA72AC9362700000B65 /* Sphere */;
-			targetProxy = B4099EC42AC9362A00000B65 /* PBXContainerItemProxy */;
+			target = B4099EDE2AC93C9D00000B65 /* Spheree */;
+			targetProxy = B4099EFB2AC93C9F00000B65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B4099ECB2AC9362A00000B65 /* Debug */ = {
+		B4099F022AC93C9F00000B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		B4099ECC2AC9362A00000B65 /* Release */ = {
+		B4099F032AC93C9F00000B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,15 +406,15 @@
 			};
 			name = Release;
 		};
-		B4099ECE2AC9362A00000B65 /* Debug */ = {
+		B4099F052AC93C9F00000B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sphere/Sphere.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Spheree/Spheree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sphere/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Spheree/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -432,7 +432,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.Sphere;
+				PRODUCT_BUNDLE_IDENTIFIER = non.Spheree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -442,15 +442,15 @@
 			};
 			name = Debug;
 		};
-		B4099ECF2AC9362A00000B65 /* Release */ = {
+		B4099F062AC93C9F00000B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sphere/Sphere.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Spheree/Spheree.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sphere/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Spheree/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,7 +468,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.Sphere;
+				PRODUCT_BUNDLE_IDENTIFIER = non.Spheree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -478,7 +478,7 @@
 			};
 			name = Release;
 		};
-		B4099ED12AC9362A00000B65 /* Debug */ = {
+		B4099F082AC93C9F00000B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,18 +489,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.SphereTests;
+				PRODUCT_BUNDLE_IDENTIFIER = non.SphereeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sphere";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spheree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spheree";
 			};
 			name = Debug;
 		};
-		B4099ED22AC9362A00000B65 /* Release */ = {
+		B4099F092AC93C9F00000B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,18 +511,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.SphereTests;
+				PRODUCT_BUNDLE_IDENTIFIER = non.SphereeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sphere.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sphere";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spheree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spheree";
 			};
 			name = Release;
 		};
-		B4099ED42AC9362A00000B65 /* Debug */ = {
+		B4099F0B2AC93C9F00000B65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,18 +532,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.SphereUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = non.SphereeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sphere;
+				TEST_TARGET_NAME = Spheree;
 			};
 			name = Debug;
 		};
-		B4099ED52AC9362A00000B65 /* Release */ = {
+		B4099F0C2AC93C9F00000B65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,57 +553,57 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = non.SphereUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = non.SphereeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Sphere;
+				TEST_TARGET_NAME = Spheree;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4099EA32AC9362700000B65 /* Build configuration list for PBXProject "Sphere" */ = {
+		B4099EDA2AC93C9D00000B65 /* Build configuration list for PBXProject "Spheree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4099ECB2AC9362A00000B65 /* Debug */,
-				B4099ECC2AC9362A00000B65 /* Release */,
+				B4099F022AC93C9F00000B65 /* Debug */,
+				B4099F032AC93C9F00000B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4099ECD2AC9362A00000B65 /* Build configuration list for PBXNativeTarget "Sphere" */ = {
+		B4099F042AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "Spheree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4099ECE2AC9362A00000B65 /* Debug */,
-				B4099ECF2AC9362A00000B65 /* Release */,
+				B4099F052AC93C9F00000B65 /* Debug */,
+				B4099F062AC93C9F00000B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4099ED02AC9362A00000B65 /* Build configuration list for PBXNativeTarget "SphereTests" */ = {
+		B4099F072AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "SphereeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4099ED12AC9362A00000B65 /* Debug */,
-				B4099ED22AC9362A00000B65 /* Release */,
+				B4099F082AC93C9F00000B65 /* Debug */,
+				B4099F092AC93C9F00000B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4099ED32AC9362A00000B65 /* Build configuration list for PBXNativeTarget "SphereUITests" */ = {
+		B4099F0A2AC93C9F00000B65 /* Build configuration list for PBXNativeTarget "SphereeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4099ED42AC9362A00000B65 /* Debug */,
-				B4099ED52AC9362A00000B65 /* Release */,
+				B4099F0B2AC93C9F00000B65 /* Debug */,
+				B4099F0C2AC93C9F00000B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4099EA02AC9362700000B65 /* Project object */;
+	rootObject = B4099ED72AC93C9D00000B65 /* Project object */;
 }
