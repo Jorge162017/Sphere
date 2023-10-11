@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Sphere
 //
-//  Created by Andy Fernando Fuentes Velásquez on 30/09/23.
+//  Created by Andy Fernando Fuentes Velásquez and Jorge López on 30/09/23.
 //
 
 import SwiftUI
