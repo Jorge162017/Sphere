@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var isForgotPasswordViewPresented = false
+    @State private var isSignUpViewPresented = false
     
     
     var body: some View {
@@ -94,7 +95,7 @@ struct ContentView: View {
                         .background(NavigationLink("", destination: ForgotPasswordView(), isActive: $isForgotPasswordViewPresented))
                         // Boton para crear una cuenta
                         Button(action: {
-                            // Agrega el código para el segundo botón
+                            isSignUpViewPresented = true
                         }) {
                             Text("Sign Up")
                                 .font(.headline)
@@ -105,6 +106,7 @@ struct ContentView: View {
                                 .background(Color(red: 15.0/255.0, green: 29.0/255.0, blue: 76.0/255.0))
                                 .cornerRadius(10)
                         }
+                        .background(NavigationLink("", destination: SignUpView(), isActive: $isSignUpViewPresented))
                     }
                     Spacer()
                     Spacer()
