@@ -7,3 +7,9 @@ struct ForgotPasswordView: View {
             .font(.title)
     }
 }
+
+struct ForgotPasswordView_Previews: PreviewProvider {
+    static var previews: some View {
+        ForgotPasswordView()
+    }
+}
