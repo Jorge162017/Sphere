@@ -14,6 +14,7 @@
 		B4099F2C2AC93DA300000B65 /* SphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099F2B2AC93DA300000B65 /* SphereTests.swift */; };
 		B4099F362AC93DA300000B65 /* SphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099F352AC93DA300000B65 /* SphereUITests.swift */; };
 		B4099F382AC93DA300000B65 /* SphereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4099F372AC93DA300000B65 /* SphereUITestsLaunchTests.swift */; };
+		B49AE1E82AD8C1BD00A6ABD1 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49AE1E72AD8C1BD00A6ABD1 /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B4099F312AC93DA300000B65 /* SphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4099F352AC93DA300000B65 /* SphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereUITests.swift; sourceTree = "<group>"; };
 		B4099F372AC93DA300000B65 /* SphereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B49AE1E72AD8C1BD00A6ABD1 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				B4099F1B2AC93DA100000B65 /* ContentView.swift */,
 				B4099F1D2AC93DA200000B65 /* Assets.xcassets */,
 				B4099F1F2AC93DA200000B65 /* Sphere.entitlements */,
+				B49AE1E72AD8C1BD00A6ABD1 /* ForgotPasswordView.swift */,
 				B4099F202AC93DA200000B65 /* Preview Content */,
 			);
 			path = Sphere;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4099F1C2AC93DA100000B65 /* ContentView.swift in Sources */,
+				B49AE1E82AD8C1BD00A6ABD1 /* ForgotPasswordView.swift in Sources */,
 				B4099F1A2AC93DA100000B65 /* SphereApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

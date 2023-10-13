@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var email: String = ""
+    @State private var password: String = ""
     
     var body: some View {
         ZStack {
@@ -16,7 +17,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 10) {
-                Spacer() // Empuja la columna hacia la parte superior
+              
                 VStack(spacing: -80) {
                     Image("Logo")
                         .resizable()
@@ -56,7 +57,7 @@ struct ContentView: View {
                         .padding(.leading, 40)
                     Spacer() // Empuja la columna hacia la parte inferior
                 }
-                TextField(" ", text: $email)
+                SecureField(" ", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 320, height: 50)
                     .padding(.leading, 5)
@@ -74,9 +75,7 @@ struct ContentView: View {
                         .cornerRadius(10) // Borde redondeado del botón
                 }
                 HStack(spacing: 70) {
-                    Button(action: {
-                        // Agrega el código para el primer botón
-                        }) {
+                    NavigationLink(destination:ForgotPasswordView()) {
                         Text("Forgot password")
                             .font(.headline)
                             .bold()
@@ -85,7 +84,8 @@ struct ContentView: View {
                             .frame(width: 170, height: 50)
                             .background(Color(red: 15.0/255.0, green: 29.0/255.0, blue: 76.0/255.0))
                             .cornerRadius(10)
-                        }
+                    }
+
                     Button(action: {
                         // Agrega el código para el segundo botón
                         }) {
@@ -101,7 +101,7 @@ struct ContentView: View {
                 }
                 Spacer()
                 Spacer()
-                Spacer()
+               
             }
         }
     }
