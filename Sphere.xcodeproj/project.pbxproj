@@ -101,11 +101,11 @@
 			children = (
 				B4099F192AC93DA100000B65 /* SphereApp.swift */,
 				B4099F1B2AC93DA100000B65 /* ContentView.swift */,
+				05A676D22AD8FF3D007663D1 /* SignUpView.swift */,
 				B4099F1D2AC93DA200000B65 /* Assets.xcassets */,
 				B4099F1F2AC93DA200000B65 /* Sphere.entitlements */,
 				B49AE1E72AD8C1BD00A6ABD1 /* ForgotPasswordView.swift */,
 				B4099F202AC93DA200000B65 /* Preview Content */,
-				05A676D22AD8FF3D007663D1 /* SignUpView.swift */,
 			);
 			path = Sphere;
 			sourceTree = "<group>";
